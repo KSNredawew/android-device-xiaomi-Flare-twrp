@@ -82,9 +82,6 @@ BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 # Platform
 TARGET_BOARD_PLATFORM := sm6115 # TODO: Verify actual platform (e.g., via adb shell getprop ro.board.platform)
 
-# Props
-TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
