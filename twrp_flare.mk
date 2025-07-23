@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from xun device
+# Inherit from flare device
 $(call inherit-product, device/xiaomi/flare/device.mk)
 
 PRODUCT_DEVICE := flare
 PRODUCT_NAME := twrp_flare
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Pad SE 8,7
+PRODUCT_MODEL := Redmi Pad SE 8.7
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
